@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(250, 250, 250);
+}
+
+.navbar {
+  background: gray;
+}
+
+.container {
+  background: linear-gradient(rgb(230, 230, 230), rgb(245, 245, 245))50%;
+  margin: 50px 0 100px 0;
+}
+
+.titulo {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.intro {
+  margin-bottom: 50px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.colapse-title {
+  margin: 15px 0;
+
+}
+
+.btn {
+  margin-right: 76px;
+}
