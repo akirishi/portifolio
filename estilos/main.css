@@ -5,7 +5,12 @@
 }
 
 body {
-  background: rgb(250, 250, 250);
+  background: url(/img/background.jpg) rgb(250, 250, 250);
+  background-size: cover;
+}
+
+p {
+  text-align: justify;
 }
 
 .navbar {
@@ -14,7 +19,11 @@ body {
 
 .container {
   background: linear-gradient(rgb(230, 230, 230), rgb(245, 245, 245))50%;
-  margin: 50px 0 100px 0;
+  margin: 50px 0 50px 0;
+}
+
+#projetos {
+  padding-bottom: 1px;
 }
 
 .titulo {
@@ -28,6 +37,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: lightgray;
 }
 
 .colapse-title {
@@ -46,4 +56,16 @@ p.button .btn {
 
 i {
   margin-right: 5px;
+}
+
+.rodape {
+  background: black;
+  color: lightgray;
+  padding-top: 30px;
+}
+
+li.rodape {
+  color: lightgray;
+  background: black;
+  margin: 20px 0;
 }

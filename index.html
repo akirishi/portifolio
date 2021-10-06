@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--css padrão-->
   <link rel="stylesheet" href="/estilos/main.css">
+  <link rel="stylesheet" href="/estilos/responsive.css">
   <!--css Bootstrap-->
   <link rel="stylesheet" type="text/css" href="/bootsrap/css/bootstrap.min.css">
   <title>Página Principal</title>
@@ -35,14 +36,14 @@
     <div class="container">
       <div class="intro">
         <h2 class="text-center titulo">Storytelling</h2>
-        <p class="text-start">Era uma vez um jovem estudante do ensino médio que sonhava em ser um engenheiro quimico.</p>
-        <p class="text-start">Todos os dias ele ia para a aula esperando as aulas de quimica, fisica e matematica sendo essas suas matérias favoritas (eu sei, estranho).</p>
-        <p class="text-start">Mas um dia ele conheceu o "backstage" dos programas e jogos que ele tanto gostava.</p>
-        <p class="text-start">Por causa disso ele decidiu se aprofundar na programação e começou a criar desafios com cálculos em python, inicialmente tentando resolver seus exercicios de matemática ou física atravéz de códigos.</p>
-        <p class="text-start">por causa disso ele continuou a buscar conhecimento em outras linguagens partindo para as linguagens de marcação e criação de sites, o HTML 5 e CSS 3 e suas interações com o usuario como JavaScript e tambem uso de banco de dados como MySQL.</p>
-        <p class="text-start">por causa disso ele desistiu da carreira que sonhava na engenharia quimica e começou a almeijar uma carreira como programador.</p>
-        <p class="text-start">Até que finalmente ele se cadastrou no 1ºEmpregoTech e esta animado para conseguir, talvez, uma recomendação ou certificação, basicamente algo que lhe ajude a ingressar no mercado de trabalho como desenvolvedor.</p>
-        <p class="text-start">E desde então ele não para de estudar toda e qualquer linguagem, framework, software ou IDE que ele ache interessante.</p>           
+        <p class="text-start">  Era uma vez um jovem estudante do ensino médio que sonhava em ser um engenheiro quimico.</p>
+        <p class="text-start">  Todos os dias ele ia para a aula esperando as aulas de quimica, fisica e matematica sendo essas suas matérias favoritas (eu sei, estranho).</p>
+        <p class="text-start">  Mas um dia ele conheceu o "backstage" dos programas e jogos que ele tanto gostava.</p>
+        <p class="text-start">  Por causa disso ele decidiu se aprofundar na programação e começou a criar desafios com cálculos em python, inicialmente tentando resolver seus exercicios de matemática ou física atravéz de códigos.</p>
+        <p class="text-start">  Por causa disso ele continuou a buscar conhecimento em outras linguagens partindo para as linguagens de marcação e criação de sites, o HTML 5 e CSS 3 e suas interações com o usuario como JavaScript e tambem uso de banco de dados como MySQL.</p>
+        <p class="text-start">  Por causa disso ele desistiu da carreira que sonhava na engenharia quimica e começou a almeijar uma carreira como programador.</p>
+        <p class="text-start">  Até que finalmente ele se cadastrou no 1ºEmpregoTech e esta animado para conseguir, talvez, uma recomendação ou certificação, basicamente algo que lhe ajude a ingressar no mercado de trabalho como desenvolvedor.</p>
+        <p class="text-start">  E desde então ele não para de estudar toda e qualquer linguagem, framework, software ou IDE que ele ache interessante.</p>           
       </div>
       <section id="quem-sou">
         <h2 class="text-center titulo">Quem sou</h2>
@@ -52,19 +53,19 @@
         <h2 class="text-center titulo">Formações</h2>
         <p class="button">
           <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#curso1" role="button" aria-expanded="false" aria-controls="curso1">
-            <i class="fas fa-school"></i>
+            <i class="fas fa-school icon"></i>
             Técnico em logística
           </a>
           <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#curso2" aria-expanded="false" aria-controls="curso2">
-            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-graduation-cap icon"></i>
             Faculdade
           </button>
           <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#curso3" aria-expanded="false" aria-controls="curso3">
-            <i class="fas fa-code"></i>
+            <i class="fas fa-code icon"></i>
             Cursos de programação
           </button>
           <button class="btn btn-outline-dark text-nowrap" type="button" data-bs-toggle="collapse" data-bs-target="#curso4" aria-expanded="false" aria-controls="curso4">
-            <i class="fas fa-tools"></i>
+            <i class="fas fa-tools icon"></i>
             Outros cursos
           </button>
         </p>
@@ -95,7 +96,7 @@
                 </p>
                 <a class="link" href="https://web.digitalinnovation.one/users/fabianocsjunior?tab=achievements" target="_blank">
                   <button type="button" class="btn btn-outline-dark">
-                    <i><img src="/img/dio-logo.png" width="18"></i>
+                    <i class="icon"><img src="/img/dio-logo.png" width="18"></i>
                     Digital Innovation One
                   </button>
                 </a>
@@ -105,10 +106,12 @@
           <div class="col-3">
             <div class="collapse multi-collapse" id="curso4">
               <div class="card card-body">
-                <p class="text-start">Também tenho alguns conhecimentos fora da área de programação, mas não muito longe da área de tecnologia:</p>
-                  <a class="link" href="certificados.html">
+                <p class="text-start">
+                  Também tenho alguns conhecimentos fora da área de programação, mas não muito longe da área de tecnologia:
+                </p>
+                  <a class="link" href="#">
                     <button type="button" class="btn btn-outline-dark">
-                      Todos os certificados
+                      Todos os certificados(WIP)
                     </button>
                   </a>
               </div>
@@ -119,20 +122,41 @@
       <section id="projetos">
         <h2 class="text-center titulo">Projetos</h2>
         <p class="text-start">Ainda não possuo muitos projetos para mostrar, mas aqui esta o meu github para dar uma olhada:</p>
-        <a href="https://github.com/akirishi" class="link">
+        <a href="https://github.com/akirishi" class="link" target="_blank">
           <button class="btn btn btn-outline-dark">
             <i class="fab fa-github-square"></i>
             Github
           </button>
         </a>
         <div class="container">
-
         </div>
       </section>   
     </div> 
   </main>
+  <div class="container rodape">
+    <footer class="text-center">
+      <h4>Desenvolvido por Fabiano Corrêa</h4>
+      <ul class="text-start list-group list-group-horizontal">        
+        <li class="list-group-item flex-fill text-center rodape">
+          <a class="link" href="https://twitter.com/Akirishi_" target="_blank">
+            Twitter
+          </a>
+        </li>        
+        <li class="list-group-item flex-fill text-center rodape">
+          <a class="link" href="https://github.com/akirishi" target="_blank">
+            Github
+          </a>
+        </li>
+        <li class="list-group-item flex-fill text-center rodape">
+          <a href="mailto:fabianocsjunior@gmail.com" class="link" target="_blank">
+            Email
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 </body>
-<!--Bootstrap js-->
+  <!--Bootstrap js-->
   <script src="/bootsrap/js/bootstrap.min.js"></script>
   <!--Font Awesome-->
   <script src="https://kit.fontawesome.com/7772761406.js" crossorigin="anonymous"></script>
