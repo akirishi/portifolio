@@ -1,15 +1,1 @@
-@media screen and (max-width: 1024px) {
-  p.button .btn {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  i.icon img {
-    display: none;
-  }
-  * {
-    font-size: small;
-  }
-}
+@media screen and (max-width:1024px){p.button .btn{width:100%;height:100%}}@media screen and (max-width:768px){i.icon img{display:none}*{font-size:small}}
